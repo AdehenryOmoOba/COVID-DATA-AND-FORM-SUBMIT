@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "form-submit",
+  "version": "1.0.0",
+  "description": "form submit server",
+  "main": "server.js",
+  "keywords": [
+    "username",
+    "password"
+  ],
+  "author": "Adehenry",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}

@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.users {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  height: 100px;
+  width: 600px;
+  background-color: rgb(128, 128, 231);
+}
+.users h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.users .links {
+  text-align: center;
+}
+.users .links a {
+  font-size: 18px;
+}
+
+form {
+  text-align: center;
+  font-size: 18px;
+}
+.health {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 10px;
+  height: 400px;
+  width: 600px;
+  background-color: rgb(128, 128, 231);
+}
+.health h2,
+.health h3 {
+  text-align: center;
+}
+.list {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.countries {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+select {
+  width: 100%;
+}
+
+option {
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: 600;
+}
+.location,
+.cases,
+.deaths {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(93, 179, 97);
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pkey {
+  height: 100%;
+  width: 50%;
+  background-color: yellow;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.pvalue {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  color: whitesmoke;
+}
+h3 span {
+  color: yellow;
+}
+.button {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 5px;
+}
+.covid-btn {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: yellow;
+  outline: none;
+}
+@media (max-width: 430px) {
+  body {
+    transform: scale(0.6);
+  }
+}
+@media (max-width: 330px) {
+  .users {
+    margin-top: -100px;
+  }
+  body {
+    transform: scale(0.5);
+  }
+}

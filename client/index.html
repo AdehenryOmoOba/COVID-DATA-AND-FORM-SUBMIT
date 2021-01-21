@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form submission</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="users">
+    <h1>User Data</h1>
+    <div class="links">
+    <a href="#">Home</a> | <a href="DBinfo.html">Data Page</a>
+    </div>
+    <form id="form">
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <button type="submit" id="btn">Submit</button>
+    </form>
+</div>
+<div class="health">
+      <h2>COVID-19 DATA</h2>
+      <div class="countries">
+        <select id="select">
+            <option value="COUNTRY"><p>COUNTRY</p></option>
+        </select>
+      </div>
+      <div class="location">
+          <p>
+              LOCATION INFORMATION
+          </p>
+      </div>
+      <div class="list">
+          <div class="pkey">CONTINENT</div>
+          <div class="pvalue"><span id="continent"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">COUNTRY</div>
+          <div class="pvalue"><span id="country"></span></div>
+      </div>
+      <div class="button">
+       <button class="covid-btn">GET DATA</button>
+    </div>
+      <div class="cases">
+        <p>
+            CASES INFORMATION
+        </p>
+    </div>
+      <div class="list">
+          <div class="pkey">CASES PER 1 MILLION</div>
+          <div class="pvalue"><span id="casemillion"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">ACTIVE CASES</div>
+          <div class="pvalue"><span id="activecase"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">CRITICAL CASES</div>
+          <div class="pvalue"><span id="criticalcase"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">NEW CASES</div>
+          <div class="pvalue"><span id="newcase"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">RECOVERED CASES</div>
+          <div class="pvalue"><span id="recovcase"></span></div>
+      </div>
+      <div class="list">
+        <div class="pkey">TOTAL CASES</div>
+        <div class="pvalue"><span id="totalcase"></span></div>
+    </div>
+      <div class="deaths">
+        <p>
+            DEATHS INFORMATION
+        </p>
+    </div>
+      <div class="list">
+          <div class="pkey">DEATHS PER 1 MILLION</div>
+          <div class="pvalue"><span id="deathmillion"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">NEW DEATHS</div>
+          <div class="pvalue"><span id="newdeath"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">TOTAL DEATHS</div>
+          <div class="pvalue"><span id="totaldeath"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">TESTS PER 1 MILLION</div>
+          <div class="pvalue"><span id="testmillion"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">TOTAL TESTS</div>
+          <div class="pvalue"><span id="totaltest"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">POPULATION</div>
+          <div class="pvalue"><span id="population"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">TIME</div>
+          <div class="pvalue"><span id="time"></span></div>
+      </div>
+      <div class="list">
+          <div class="pkey">DATE</div>
+          <div class="pvalue"><span id="date"></span></div>
+      </div>
+</div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
